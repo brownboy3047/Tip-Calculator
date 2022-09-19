@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>TIP-CALCULATOR</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-wrapper">
+        <div class="input-field">
+          <label for="">BILL</label>
+          <input
+            type="text"
+            id="bill-input"
+            placeholder="$0.00"
+            onkeyup="calculateBill()"
+          />
+        </div>
+
+        <div class="input-field">
+          <label for="tip">TIP</label>
+          <input
+            type="text"
+            name="tip"
+            id="tip-input"
+            placeholder="%10"
+            onkeyup="calculateBill()"
+          />
+        </div>
+
+        <div class="cal-input">
+          <div>
+            <span>Number of People</span>
+            <div class="button-container">
+              <button class="btn-left" id="increment">+</button>
+              <span id="number-of-people">1</span>
+              <button class="btn-right" id="decrement">-</button>
+            </div>
+          </div>
+
+          <div>
+            <span>Total per Person</span>
+            <div class="cal-input-field">
+              <p id="per-person-bill">$0.00</p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

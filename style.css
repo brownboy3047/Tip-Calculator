@@ -1,0 +1,53 @@
+.form-wrapper {
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  padding: 50px;
+  background-color: rgb(2, 2, 22);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-field input {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.cal-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.cal-input-field p {
+  padding: 8px;
+}
+
+.button-container {
+  margin-top: 12px;
+}
+
+.button-container button {
+  border: none;
+  margin: 0 10px;
+}
+
+.btn-left {
+  background-color: rgb(51, 154, 51);
+  padding: 10px;
+}
+
+.btn-right {
+  background-color: rgb(150, 34, 34);
+  padding: 10px;
+}
